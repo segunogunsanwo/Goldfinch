@@ -1,0 +1,71 @@
+/* This style sheet is created for Goldfinch Jewerlry home page 
+Created by: Olajumoke Ojikutu 
+Date: May 1st, 2023 */
+
+/* Import fonts - Font yet to be determined*/ 
+@font-face {
+    font-family:'ArtNuvo' ;
+    src: url(/fonts/Art-nuvo.ttf);
+}
+
+@font-face {
+    font-family: 'Frunchy';
+    src: url(/fonts/FontsFree-Net-Frunchy.ttf);
+}
+
+/* Style for the header of all the htmls*/
+.header-container {
+    width: 100%;
+    position: sticky;
+    top: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.top-nav {
+    cursor: pointer;
+    border: none;
+    background: 0 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+.top-nav-right {
+        /* float: right!important; */
+        position: relative;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+/* Styling the navigation */
+/* Style specifies padding and margin for unordered list in navigation */
+/* Style for nav to specify text properties */
+.top-nav-right {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.5em;
+	font-weight: bold;
+	/* text-align: right; */
+    float: right;
+}
+
+.top-nav-right ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet styles, and applies margins and padding for list items withib the navigation */
+.top-nav-right li {
+    display: inline;
+	border-radius: 1em;
+	list-style-type: none;
+	/* margin: 0.3em;
+	padding: 0.4em; */
+}
+
+
+
+
+
+  
