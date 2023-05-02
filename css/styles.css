@@ -1,5 +1,5 @@
 /* This style sheet is created for Goldfinch Jewerlry home page 
-Created by: Olajumoke Ojikutu 
+Created by: Olajumoke 
 Date: May 1st, 2023 */
 
 /* Import fonts - Font yet to be determined*/ 
@@ -16,8 +16,7 @@ Date: May 1st, 2023 */
 /*Style for body to specify a background color and margin*/
 body {
     background-color: #fff;
-    margin: 10px 0px 10px 0px;
-    marg
+    margin: 10px 0 10px 0;
 }
 
 /* HEADER STYLING */
