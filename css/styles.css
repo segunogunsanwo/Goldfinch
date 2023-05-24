@@ -2,4 +2,158 @@
     font-family: Avenir;
     src: url(/fonts/AvenirLTStd-Roman.otf);
 }
+@font-face {
+    font-family: Avenir-Black;
+    src: url(/fonts/AvenirLTStd-Black.otf);
+}
+
+.container-fluid{
+    padding: 0 !important;
+    background-color: #E2E2E2;
+}
+
+.promo-top-bar {
+    background-color: #A95490;
+    color: #FFF;
+    height: 29.14px;
+    font-family: "Avenir";
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+}
+.promo a{
+    color: #FFF; 
+}
+
+.mid-bar, .mid-bar a {
+    color: #000;
+    text-decoration: none;
+    padding-top: 19.86px;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+}
+
+.goldfinch-logo p {
+    color: #000;
+    font-family: "Avenir-Black";
+    font-size: 32px;
+    font-weight: 800px;
+    line-height: 24px;
+    margin-top: 33.86px;
+}
+
+nav .nav-nav {
+    background-color: #E2E2E2;
+    font-family: "Avenir";
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 19px;
+    letter-spacing: 0.65px;
+    
+}
+
+hr {
+
+    color: #E2E2E2;
+}
+
+
+.footer-main {
+    background-color: #A95490;
+    color: #FFF;
+    height: 600px;
+    
+}
+
+.footer-main h3 {
+    font-family: "Avenir";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.42px;
+}
+
+.small {
+    color: #FFF;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.26px;   
+}
+
+.social-icons a{
+    color:#fff;
+    line-height:30px;
+    font-size:20px;
+    margin: 0px 3px;
+    text-decoration:none;
+} 
+
+.social-icons a i{
+    line-height:30px;
+    font-size:20px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+} 
+
+button.submit-button {
+    background-color: #3E9F8E;
+    color: #FFF;
+}
+
+::placeholder {
+    font-family: "Avenir";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    color: #333333;
+ }
+
+select {
+    border: none;
+    background-color: #E2E2E2;
+}
+
+.bottom-footer span, .bottom-footer span a {
+    color: #FFF;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.26px; 
+}
+
+.bottom-footer span + span:before {
+    content: " | ";
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.centered {
+    margin: 0 auto;
+    float: none
+}
 
