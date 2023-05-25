@@ -1,0 +1,5 @@
+OUTSTANDING TO DO
+
+1. The text on banner is not responsive to smaller or larger screens.
+
+2.The categories are not centered on larger screen, Too much space on the right.
